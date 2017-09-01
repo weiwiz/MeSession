@@ -1,0 +1,19 @@
+{
+  "self": {
+    "type": {
+      "id": "071908000000",
+      "name": "session",
+      "icon": ""
+    },
+    "module": "./lib/session/me-session",
+    "forward": "hl_handler",
+    "listen_port": 2223,
+    "uuid": "5ecea5f8-91ac-4e59-be87-45ff54956353",
+    "token": "a30519fbac8a2026cb4fd16e118f04d1d05fef8b",
+    "zkPath": "/system/services/session/cluster/5ecea5f8-91ac-4e59-be87-45ff54956353"
+  },
+  "zookeeper": {
+    "host": "115.28.241.149",
+    "port": 2181
+  }
+}
