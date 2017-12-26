@@ -7,13 +7,16 @@
     },
     "module": "./lib/session/me-session",
     "forward": "hl_handler",
-    "listen_port": 2223,
-    "uuid": "5ecea5f8-91ac-4e59-be87-45ff54956353",
-    "token": "a30519fbac8a2026cb4fd16e118f04d1d05fef8b",
-    "zkPath": "/system/services/session/cluster/5ecea5f8-91ac-4e59-be87-45ff54956353"
+    "listen_port": 2223
   },
   "zookeeper": {
-    "host": "115.28.241.149",
+    "host": "tech-artisan.net",
     "port": 2181
+  },
+  "meshblu_server": {
+    "db_url": "mongodb://root:wzh83573100@127.0.0.1:27017/admin",
+    "host": "127.0.0.1",
+    "port": 6565,
+    "message_timeout": 30
   }
 }
