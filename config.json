@@ -6,17 +6,78 @@
       "icon": ""
     },
     "module": "./lib/session/me-session",
-    "forward": "hl_handler",
-    "listen_port": 2223
+    "extra": {
+      "forward": "hl_handler",
+      "listen_port": 2223
+    },
+    "uuid": "5fa10634-37b7-4c67-935c-54c097109bd3",
+    "token": "ac376a3ee490f710e26b3320dee3c4eaee6aef2e",
+    "zkPath": "/system/services/session/cluster/5fa10634-37b7-4c67-935c-54c097109bd3"
   },
   "zookeeper": {
-    "host": "tech-artisan.net",
+    "host": "47.104.70.122",
     "port": 2181
   },
   "meshblu_server": {
-    "db_url": "mongodb://root:wzh83573100@127.0.0.1:27017/admin",
-    "host": "127.0.0.1",
+    "db_url": "mongodb://root:wzh83573100@47.104.70.122:27017/admin",
+    "host": "47.104.70.122",
     "port": 6565,
     "message_timeout": 30
+  },
+  "nodered_server": {
+    "host": "47.104.70.122",
+    "port": 1880,
+    "user": "admin",
+    "password": "123456"
+  },
+  "services": {
+    "hl_handler": [
+      {
+        "uuid": "b2eea1b4-db63-48f7-b8a0-37b4fffe2787",
+        "online": "true"
+      }
+    ],
+    "ali_sms": [
+      {
+        "uuid": "dd312c45-e3cf-4994-959c-9d9f9bff49ed",
+        "online": "true"
+      }
+    ],
+    "event_source": [
+      {
+        "uuid": "5e0119ae-09ef-4744-b708-889085184e44",
+        "online": "true"
+      }
+    ],
+    "app_api": [
+      {
+        "uuid": "19f8cc50-44fb-4167-b3ae-a66b7995569f",
+        "online": "true"
+      }
+    ],
+    "collector": [
+      {
+        "uuid": "dd3216f1-b619-4b32-a4bf-ac8c5ae395de",
+        "online": "true"
+      }
+    ],
+    "data_statistics": [
+      {
+        "uuid": "32e45f38-0bed-4540-a294-d2100adf73a7",
+        "online": "true"
+      }
+    ],
+    "event_center": [
+      {
+        "uuid": "40f1270f-cd00-4f8d-bf9d-620731399523",
+        "online": "true"
+      }
+    ],
+    "session": [
+      {
+        "uuid": "5fa10634-37b7-4c67-935c-54c097109bd3",
+        "online": "true"
+      }
+    ]
   }
 }
